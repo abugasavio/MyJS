@@ -7,3 +7,11 @@ function bar() {
 
 baz();
 console.log(bam); // prints "yay"
+
+
+var foo = function foobar() {
+  return 'test'
+}
+
+foo();
+foobar();
